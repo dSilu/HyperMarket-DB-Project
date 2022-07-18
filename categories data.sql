@@ -1,17 +1,18 @@
 use hypermarket;
 select * from categories;
 insert into categories values
-(1,'Fresh Fruits'),
-(2, 'Provisions'),
-(3, 'Breakfast & Dairy'),
-(4, 'Fresh Vegetables & Herbs'),
-(5, 'Snacks & Beverages'),
-(6, 'Instant Foods'),
-(7, 'Chocolates & Desserts'),
-(8, 'Personal Care'),
-(9, 'Home Care'),
-(11, 'Pet Foods');
+(1,	'Baby Care'),
+(2,	'Bakery, Cakes & Dairy'),
+(3,	'Beauty & Hygiene'),
+(4	,'Beverages'),
+(5	,'Cleaning & Household'),
+(6	,'Eggs, Meat & Fish'),
+(7	,'Foodgrains, Oil & Masala'),
+(8	,'Fruits & Vegetables'),
+(9	,'Gourmet & World Food'),
+(10	,'Kitchen, Garden & Pets'),
+(11	,'Snacks & Branded Foods');
 
-DELETE FROM categories WHERE category_id = 10;
 
-select * from categories ;
+
+
