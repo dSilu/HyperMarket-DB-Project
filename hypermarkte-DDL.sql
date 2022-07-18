@@ -3,16 +3,15 @@ DROP DATABASE IF EXISTS HyperMarket;
 CREATE DATABASE HyperMarket;
 
 
-CREATE TABLE HyperMarket.stores
+CREATE TABLE HyperMarket.outlets
 (
-	store_id VARCHAR(5) PRIMARY KEY,
-    store_name VARCHAR(101) NOT NULL,
-    phone INT CHECK (LENGTH(phone)=14) NOT NULL,
+	outlet_id VARCHAR(5) PRIMARY KEY,
+    phone INT NOT NULL,
     email VARCHAR(50) NOT NULL,
     street VARCHAR(101) NOT NULL,
     city VARCHAR(60) NOT NULL,
     state VARCHAR(60) NOT NULL,
-    pin INT CHECK (LENGTH(pin)=6)
+    pin INT NOT NULL
 );
 
 CREATE TABLE HyperMarket.staffs
@@ -20,11 +19,14 @@ CREATE TABLE HyperMarket.staffs
 	staff_id VARCHAR(8) PRIMARY KEY,
     first_name VARCHAR(101) NOT NULL,
     last_name VARCHAR(101) NOT NULL,
-    phone INT CHECK (LENGTH(phone)=6) NOT NULL,
+    designation VARCHAR(60) NOT NULL,
+    phone INT NOT NULL,
     email VARCHAR(60) NOT NULL,
-    store_id VARCHAR(5) NOT NULL,
+    outlet_id VARCHAR(5) NOT NULL,
+    work_area VARCHAR(50) NOT NULL,
     manager_id VARCHAR(8),
-    FOREIGN KEY (store_id) REFERENCES HyperMarket.stores(store_id),
+    salary INT NOT NULL,
+    FOREIGN KEY (outlet_id) REFERENCES HyperMarket.outlets(outlet_id),
     FOREIGN KEY (manager_id) REFERENCES HyperMarket.staffs(staff_id)
 );
 
@@ -33,13 +35,13 @@ CREATE TABLE HyperMarket.customers
 (
 	customer_id VARCHAR(14) PRIMARY KEY,
     first_name VARCHAR(101) NOT NULL,
-    second_name VARCHAR(101) NOT NULL,
-    phone INT CHECK (LENGTH(phone)=6) NOT NULL,
+    last_name VARCHAR(101) NOT NULL,
+    phone INT NOT NULL,
     email VARCHAR(70),
     street VARCHAR(101) NOT NULL,
     city VARCHAR(60) NOT NULL,
     state VARCHAR(60) NOT NULL,
-    pin INT CHECK (LENGTH(pin)=6) NOT NULL
+    pin INT NOT NULL
 );
 
 CREATE TABLE HyperMarket.orders
@@ -47,11 +49,11 @@ CREATE TABLE HyperMarket.orders
 	order_id VARCHAR(15) PRIMARY KEY,
     customer_id VARCHAR(14) NOT NULL,
     order_date DATE NOT NULL,
-    store_id VARCHAR(5) NOT NULL,
+    outlet_id VARCHAR(5) NOT NULL,
     staff_id VARCHAR(8) NOT NULL,
     FOREIGN KEY (customer_id) REFERENCES HyperMarket.customers(customer_id),
-    FOREIGN KEY (store_id) REFERENCES HyperMarket.stores(store_id),
-    FOREIGN KEY (staff_id) REFERENCES HyperMarket.staffs(staff_id)
+    FOREIGN KEY (outlet_id) REFERENCES HyperMarket.outlets(outlet_id)
+    -- FOREIGN KEY (staff_id) REFERENCES HyperMarket.staffs(staff_id)
 );
 
 CREATE TABLE HyperMarket.categories
@@ -73,6 +75,7 @@ CREATE TABLE HyperMarket.products
     product_name VARCHAR(255) NOT NULL,
     category_id INT NOT NULL,
     brand_id INT,
+    price FLOAT NOT NULL,
     mfg DATE,
     exp DATE,
     FOREIGN KEY (category_id) REFERENCES HyperMarket.categories(category_id),
@@ -82,11 +85,11 @@ CREATE TABLE HyperMarket.products
 
 CREATE TABLE HyperMarket.stocks
 (
-	store_id VARCHAR(5) NOT NULL,
+	outlet_id VARCHAR(5) NOT NULL,
     product_id VARCHAR(255) NOT NULL,
     quantity FLOAT,
-    PRIMARY KEY (store_id, product_id),
-    FOREIGN KEY (store_id) REFERENCES HyperMarket.stores(store_id)
+    PRIMARY KEY (outlet_id, product_id),
+    FOREIGN KEY (outlet_id) REFERENCES HyperMarket.outlets(outlet_id)
 );
 
 
