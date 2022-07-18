@@ -182,3 +182,164 @@ INSERT INTO HyperMarket.customers(customer_id, first_name, last_name, phone, ema
 	VALUES ('ST4ZFTX4857', 'Sunil', 'Divedi', 727113087, 'sunil.divedi@gmail.com', 'Baner', 'Pune', 'Maharashtra', 411045);
 INSERT INTO HyperMarket.customers(customer_id, first_name, last_name, phone, email, street, city, state, pin)
 	VALUES ('ST4HPDK8079', 'Ankit', 'Sonkar', 924675169, 'ankit.sonkar@outlook.com', 'Khadki', 'Pune', 'Maharashtra', 411031);
+    
+
+
+-- INSERT INTO categories table
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Fresh Fruits');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Provisions');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Breakfast & Dairy');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Fresh Vegetables & Herbs');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Snacks & Beverages');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Instant Foods');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Chocolates & Desserts');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Personal Care');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Home Care');
+INSERT INTO HyperMarket.categories (category_name)
+	VALUES ('Pet Foods');
+    
+    
+-- Insert data into brands table
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Tata');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Nestle');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Fortune');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Everest');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Amul');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Chitale');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Weikfield');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Suhana');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Gemini');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('MTR');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Britannia');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Parle');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Unibic');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Sunfeast');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Patanjali');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Haldiram');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Bikaji');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Pepsico');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Kelloggs');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Saffola');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('YogaBar');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Cadbury');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Hersheys');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Del Monte');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Maggi');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Chings');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Knorr');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Funfoods');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Dabur');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Surf Excel');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Rin');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Tide');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Ariel');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Wheel');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Lizol');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Harpic');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Gala');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('ITC');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Hindusthan Unilever');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Dove');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Life Bouy');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Biotique');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Lux');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Dettol');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Himalaya');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Nivea');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Mama Earth');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('WoW');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Khadi');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Johnson');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Godrej');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Wipro');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Pedigree');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Whiskas');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Procter & Gamble');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Lotus Herbals');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Ponds');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Lakme');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Neutrogena');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Loreal Paris');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Garnier');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Kwality Walls');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Dinshaws');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Mother Dairy');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Havmor');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Baskin Robins');
+INSERT INTO HyperMarket.brands(brand_name)
+	VALUES ('Reliance');

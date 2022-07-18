@@ -59,14 +59,14 @@ CREATE TABLE HyperMarket.orders
 CREATE TABLE HyperMarket.categories
 (
 	category_id INT AUTO_INCREMENT PRIMARY KEY,
-    category_name VARCHAR(255) NOT NULL
+    category_name VARCHAR(255) UNIQUE NOT NULL 
 );
 
 
 CREATE TABLE HyperMarket.brands
 (
 	brand_id INT AUTO_INCREMENT PRIMARY KEY,
-    brand_name VARCHAR(255) NOT NULL
+    brand_name VARCHAR(255) UNIQUE NOT NULL
 );
 
 CREATE TABLE HyperMarket.products
