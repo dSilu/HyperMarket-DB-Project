@@ -50,7 +50,6 @@ CREATE TABLE HyperMarket.orders
     customer_id VARCHAR(14) NOT NULL,
     order_date DATE NOT NULL,
     outlet_id VARCHAR(5) NOT NULL,
-    staff_id VARCHAR(8) NOT NULL,
     FOREIGN KEY (customer_id) REFERENCES HyperMarket.customers(customer_id),
     FOREIGN KEY (outlet_id) REFERENCES HyperMarket.outlets(outlet_id)
     -- FOREIGN KEY (staff_id) REFERENCES HyperMarket.staffs(staff_id)
