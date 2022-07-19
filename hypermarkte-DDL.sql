@@ -65,7 +65,7 @@ CREATE TABLE HyperMarket.categories
 
 CREATE TABLE HyperMarket.brands
 (
-	brand_id INT AUTO_INCREMENT PRIMARY KEY,
+	brand_id VARCHAR(6) PRIMARY KEY,
     brand_name VARCHAR(255) UNIQUE NOT NULL
 );
 
@@ -74,7 +74,7 @@ CREATE TABLE HyperMarket.products
 	product_id VARCHAR(20) PRIMARY KEY,
     product_name VARCHAR(255) NOT NULL,
     category_id INT NOT NULL,
-    brand_id INT,
+    brand_id VARCHAR(6),
     price FLOAT NOT NULL,
     mfg DATE,
     exp DATE,
