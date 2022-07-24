@@ -1,0 +1,276 @@
+Product_id,product,category_Id,Brand_id,price
+40,Tuna Chunks in Olive Oil,6,BIN1016,145
+64,Pork - Frankfurters Sausages,6,BIN1029,10
+65,Pork - Dinner Franks,6,BIN1029,20
+255,"Fresho Mutton Boneless 500 g + Kara Coconut Milk UHT Classic, Imported 200 ml",6,BIN1090,99
+256,Fresho Meat Mutton - Biryani Pieces 1 kg + Jharna Ghee 250 gm,6,BIN1090,180
+257,"Fresho Mutton Curry Cut, From Whole Carcass 1kg +Kara Coconut Milk Classic 400ml",6,BIN1090,198
+414,Brown Egg - Veg Feed & Extra Albumen,6,BIN1106,290
+415,Cardio Egg - Low Cholesterol Good For Heart,6,BIN1106,650
+416,Plus Egg - Veg Feed & No Bad Odour,6,BIN1106,175
+430,Frozen Basa Fish - Fillets,6,BIN1113,400
+431,Salmon Smoked - Presliced,6,BIN1113,110
+459,Chicken - Spring Roll,6,BIN1125,410
+474,Nuremberger - Chicken,6,BIN1130,399
+475,Pork - Meat Loaf,6,BIN1130,199
+476,Chicken - Meat Loaf,6,BIN1130,27
+511,Ready to Cook - Anchovy (Cleaned),6,BIN1139,50
+517,Ready to Cook - Large Prawns (Peeled & Deveined),6,BIN1143,122
+518,Fish Fillets - Raw Meet,6,BIN1143,599
+858,Sausage - Chicken Cocktail,6,BIN1267,155
+925,Eggs - Free Range,6,BIN1290,330
+926,Free Range Eggs,6,BIN1290,350
+927,Eggs - Free Range,6,BIN1290,450
+973,Chicken Cocktail Sausage,6,BIN1314,220
+974,Rohu Fish (Large) - Curry Cut/Bengali Cut 1 kg + Tilapia Fish Whole 500g,6,BIN1314,280
+975,Rohu Fish (Large) - Curry Cut/Bengali Cut 1 kg + Mutton - Curry Cut 1 kg,6,BIN1314,160
+976,"Pearl Spot Fish - Medium, Whole, Preservative Free, 3-4 pcs",6,BIN1314,110
+977,Chicken Seekh Kabab Malai N Cheese,6,BIN1314,170
+978,"Fish - Katla, Head",6,BIN1314,645
+979,Chicken Seekh Kabab - Onion,6,BIN1314,325
+980,Chicken Salami Plain,6,BIN1314,300
+981,"Country Cage Free Eggs - Medium, Antibiotic Residue-Free",6,BIN1314,200
+982,Chicken Shami Kabab,6,BIN1314,70
+983,"Farm Eggs - Jumbo, Large, Antibiotic Residue-Free",6,BIN1314,975
+984,Frozen Prawns - Medium,6,BIN1314,225
+985,Frozen Basa Fillet - Preservative Free,6,BIN1314,600
+986,Rohu Fish Large Curry Cut 1kg +Chilli Chicken Boneless 500G +Chicken Mince 500G,6,BIN1314,49
+987,Frozen Prawns - Small,6,BIN1314,150
+988,Chicken Italian Shorties,6,BIN1314,280
+989,Chicken Masala Tikka,6,BIN1314,111
+990,Mutton Shami Kabab,6,BIN1314,99
+991,"Tilapia Fish Whole Cleaned - Preservative Free, 4-6 pcs",6,BIN1314,125
+992,Chicken Seekh Kabab - Khas khas,6,BIN1314,201
+993,"Rohu Fish (Large) - Curry Cut/Bengali Cut, Preservative Free",6,BIN1314,115
+994,Duck Eggs,6,BIN1314,120
+995,Eggs - Regular,6,BIN1314,20
+996,Chicken Thuringer,6,BIN1314,18
+997,"Mutton - Biryani Pieces, 8-10 pcs, Antibiotic Residue-Free, Growth Hormone-Free",6,BIN1314,285
+998,Chicken Bockwurst,6,BIN1314,20
+999,"Mutton - Boneless, 2-3 pcs, Antibiotic Residue-Free, Growth Hormone-Free",6,BIN1314,165
+1000,"Tuna Fish - Steak/Slice, Preservative Free, 6-8 pcs",6,BIN1314,120
+1001,"Country (Desi) Eggs - Small, Antibiotic Residue-Free",6,BIN1314,500
+1002,Chicken Olive Mortadella,6,BIN1314,210
+1003,"Pork - Fresh Bacon, Sliced",6,BIN1315,315
+1004,"Pork - Mortadella with Olives, Sliced",6,BIN1315,174
+1005,"Pork - Ham BBQ, Sliced",6,BIN1315,330
+1006,Pork - Garlic Sausage,6,BIN1315,100
+1007,"Pork - Prosciutto Cotto Ham, Sliced",6,BIN1315,390
+1008,"Pork - Pizza Pepperoni, Sliced",6,BIN1315,999
+1009,"Pork - Salami Napoli, Sliced",6,BIN1315,45
+1010,Chicken - Mortadella with Green Olives Sliced,6,BIN1315,750
+1011,"Chicken - Salami with Chilli, Sliced",6,BIN1315,195
+1012,"Pork - Mortadella Bologna Short, P.G.I, Sliced",6,BIN1315,136
+1013,"Pork - Cured Chorizo Chilly, Sliced",6,BIN1315,250
+1014,"Chicken - Lemon Pepper Salami, Sliced",6,BIN1315,130
+1015,"Pork - Mortadella with Pistachios, P.G.I, Sliced",6,BIN1315,720
+1016,"Pork - Speck Ham, P.G.I, Sliced",6,BIN1315,160
+1017,"Pork - Coppa Parma Traditional, Sliced",6,BIN1315,225
+1018,"Pork - Oak Smoked Bacon, Sliced",6,BIN1315,260
+1019,"Pork - BBQ Premium Smoked Ham, Sliced",6,BIN1315,170
+1036,Jus-Like - Lobster Bite,6,BIN1326,649
+1037,Fish Fingers,6,BIN1326,780
+1038,Imitation - Crab Claw,6,BIN1326,1060
+1039,Prawns Hariyali Masala,6,BIN1326,180
+1040,Prawns Goan Curry,6,BIN1326,499
+1087,Sardine In Soy Sauce,6,BIN1354,210
+1088,Canned Skipjack Light Meat Tuna - Chunk In Soya Bean Oil,6,BIN1354,299
+1089,Tuna Sandwich Flakes In Oil With Red Chili,6,BIN1354,50
+1090,"Smoked Pink Salmon Fillet - Wild Alaskan, In Oil",6,BIN1354,25
+1091,Tuna Salad With Vegetables Mexican Style,6,BIN1354,45
+1092,Canned Sardine - in Tomato Sauce,6,BIN1354,550
+1093,Canned Sardine In Brine,6,BIN1354,499
+1147,Mackeral Fish,6,BIN1376,240
+1148,Korai Fish,6,BIN1376,229
+1149,Silver Belly,6,BIN1376,129
+1150,Prawns(Small),6,BIN1376,175
+1151,Tuna Fish,6,BIN1376,1500
+1170,Free Range Eggs - Omega 3,6,BIN1385,178
+1302,Fresh Catch Fish Fingers,6,BIN1421,1160
+1303,Fresh Catch Basa Fish Fillets,6,BIN1421,225
+1304,Fresh Catch Fish Poppers,6,BIN1421,130
+1305,Fresh Catch Fish Fritters,6,BIN1421,135
+1306,Fresh Catch Prawns - Small,6,BIN1421,250
+1318,Sardine In Vegetable Oil,6,BIN1425,300
+1327,"Prawns - Medium, Peeled & Deveined",6,BIN1430,599
+1486,Pork Classic Salami,6,BIN1497,50
+1487,"Ham - Premium Beechwood Bacon, Smoked",6,BIN1497,160
+1488,"Ham - Champagine Chicken, Smoked",6,BIN1497,90
+1489,Mutton Seekh Kebab,6,BIN1497,569
+1490,Chicken Chorizo Sausage,6,BIN1497,33
+1491,Chicken Tikka Sausage,6,BIN1497,30
+1492,Chicken Malai Tikka,6,BIN1497,48
+1493,Chicken Premium Ham,6,BIN1497,85
+1494,Pork Nuremburg Sausage,6,BIN1497,540
+1495,Chicken Cheese Sausages,6,BIN1497,47
+1496,Sausage - Chicken Chilli Cheese,6,BIN1497,25
+1497,Pork Cocktail Sausage,6,BIN1497,390
+1498,"Ham - Turkey Bacon, Smoked",6,BIN1497,33
+1649,Chicken Jalapeno Cheese Nuggets,6,BIN1561,55
+1650,Chicken - Nuggets,6,BIN1561,47
+1651,Chicken - Burger,6,BIN1561,200
+1652,Fresh Boneless Chicken Thighs,6,BIN1561,50
+1653,Mutton - Seekh Kebab,6,BIN1561,10
+1654,Chicken - Jumbo Hot Dog,6,BIN1561,60
+1655,Smoked Back Bacon,6,BIN1561,165
+1656,Chicken - Sausages,6,BIN1561,95
+1671,Pork Streaky Bacon,6,BIN1566,73
+1672,Pork Spicy Sausage,6,BIN1566,233
+1673,Pork Bacon Sausages - Smoked,6,BIN1566,90
+1742,Quail Eggs,6,BIN1595,45
+1743,Eggs - Panchakavya,6,BIN1595,85
+1744,Eggs - Brown Shell,6,BIN1595,75
+1745,Eggs - Country,6,BIN1595,102
+1746,Eggs - Country Duck,6,BIN1595,60
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+2263,Chicken - Chilli Salami,6,BIN1743,45
+2264,Chicken Cheese & Chiili  Sausage - Beechwood Smoked,6,BIN1743,99
+2265,Mutton Curry Cuts,6,BIN1744,450
+2266,Mutton Biryani Cut,6,BIN1744,85
+2318,Lamb Hind Shank - New Zealand,6,BIN1756,169
+2336,Sausage - Pork,6,BIN1766,260
+2337,"Sausage - Pork, Super Bacon",6,BIN1766,395
+2338,Sausage - Pork,6,BIN1766,181
+2339,Pepperoni - Chicken,6,BIN1766,395
+2387,Sausages - Chicken,6,BIN1786,325
+2477,Basa Fish - Fillet Family Pack,6,BIN1830,349
+2478,Prawns - Pud Medium,6,BIN1830,375
+2479,Prawns - Pud Large,6,BIN1830,299
+2480,Prawns - Pd Xtra Large,6,BIN1830,599
+2481,Prawn - Torpedo,6,BIN1830,199
+2632,Premium Fish Fillet,6,BIN1903,345
+2670,Sausage - Pork,6,BIN1920,399
+2671,Chicken - Cheese & Onion Sausages,6,BIN1920,1490
+2672,Pork - Back Bacon,6,BIN1920,125
+2673,Streaky - Bacon,6,BIN1920,1799
+2674,Sausage - Chicken,6,BIN1920,399
+2686,"Tuna Flakes - White Meat In Water, Salt Added",6,BIN1924,250
+2687,Tuna Flakes - White Meat In Sunflower Oil,6,BIN1924,470
+2975,Chicken - Cocktail Pepper Sausages,6,BIN2027,55
+2976,"Salami - Chicken N Cheese, Spicy",6,BIN2027,35
+2977,Chicken - Spicy Sausages,6,BIN2027,39
+2978,Chicken - Sausages,6,BIN2027,38
+2979,Chicken - Spicy Salami,6,BIN2027,61
